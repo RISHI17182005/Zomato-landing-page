@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <!-- Zomato logo in the tab -->
+    <link rel="icon" type="image/x-icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png" />
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- Poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <section class="container hero_section">
+        <header>
+            <nav class="hero_section_navbar">
+                <a class="get_the_app_link" href="#">Get the App</a>
+                <div class="hero_section_navbar_container">
+                    <a class="hero_section_navbar_links" href="#">Investor Relations</a>
+                    <a class="hero_section_navbar_links" href="#">Add restaurant</a>
+                    <a class="hero_section_navbar_links" href="#">Log in</a>
+                    <a class="hero_section_navbar_links" href="#">Sign up</a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="hero_section_container">
+            <img class="hero_section_logo" src="imgs/heroSectionLogo.png" alt="logo" />
+            <h1 class="hero_section_title">
+                Discover the best food & drinks in Dharwad
+            </h1>
+            <div class="hero_section_input_container">
+                    <i class="fa-solid fa-location-dot icon_location"></i>
+                    <input  class="hero_section_input_location" type="text" placeholder="Alnavar, Dharwad"/>
+                    <i class="fa-solid fa-magnifying-glass icon_search"></i>
+                    <input class="hero_section_input_search" type="text"
+                        placeholder="Search for restaurant, cuisine or a dish" />
+            </div>
+        </div>
+    </section>
+
+    <section class="container offer_section">
+        <div class="offer_section_cards">
+            <img src="imgs/item1.png" alt="item1" />
+            <div class="offer_section_content">
+                <h5>Order Online</h5>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+        </div>
+
+        <div class="offer_section_cards">
+            <img src="imgs/item2.png" alt="item2" />
+            <div class="offer_section_content">
+                <h5>Dining</h5>
+                <p>View the city's favourite dining venues</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container collection_section">
+        <p class="collection_section_header">
+            Popular localities in and around <strong>Dharwad</strong>
+        </p>
+        <div class="collection_section_card_container">
+            <div class="collection_section_card_content">
+                    <p>Saptapur<i class="fa-solid fa-chevron-right icon"></i></p>
+                    <span>79 places</span>
+            </div>
+
+            <div class="collection_section_card_content">
+                <p>Maratha Colony<i class="fa-solid fa-chevron-right icon"></i></p>
+                <span>78 places</span>
+            </div>
+            <div class="collection_section_card_content">
+                <p>Vidyagiri<i class="fa-solid fa-chevron-right icon"></i></p>
+                <span>57 places</span>
+            </div>
+            <div class="collection_section_card_content">
+                <p>Malmaddi<i class="fa-solid fa-chevron-right icon"></i></p>
+                <span>33 places</span>
+            </div>
+            <div class="collection_section_card_content">
+                <p>Naryanpura<i class="fa-solid fa-chevron-right icon"></i></p>
+                <span>32 places</span>
+            </div>
+            <div class="collection_section_card_content">
+                <p>Sattur<i class="fa-solid fa-chevron-right icon"></i></p>
+                <span>23 places</span>
+            </div>
+            <div class="collection_section_card_content">
+                <p>Police Head Quarters<i class="fa-solid fa-chevron-right icon"></i></p>
+                <span>18 places</span>
+            </div>
+            <div class="collection_section_card_content">
+                <p>Hosayeallapur<i class="fa-solid fa-chevron-right icon"></i></p>
+                <span>16 places</span>
+            </div>
+            <div class="collection_section_card_content_special">
+                    <p>see more<i class="fa-solid fa-chevron-down icon"></i></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container gap_section">
+        <div class="semicontainer">
+            <div class="gap_section_left">
+                <img src="imgs/mobileBanner.png" alt="mobileBanner" />
+            </div>
+            <div class="gap_section_right">
+                <h1>Get the Zomato app</h1>
+                <p>
+                    We will send you a link, open it on your phone to download the app
+                </p>
+                <div class="gap_section_radio">
+                    <div>
+                        <input type="radio" name="myRadio" id="Email" checked/>
+                        <label for="Email">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="myRadio" id="Phone" />
+                        <label for="Phone">Phone</label>
+                    </div>
+                </div>
+                <div class="gap_section_input_container">
+                    <input type="text" placeholder="Email" />
+                    <button>Share App Link</button>
+                </div>
+                <h6>Download app from</h6>
+                <div class="gap_section_store">
+                    <img src="imgs/playStore.png" alt="playStore" />
+                    <img src="imgs/appleStore.png" alt="appleStore" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container explore_section">
+        <h1>Explore options near me</h1>
+        <div class="explore_section_dropdowns">
+            <p>Popular cuisines near me <i class="fa-solid fa-chevron-down icon"></i></p>
+            <p>Popular restaurant types near me <i class="fa-solid fa-chevron-down icon"></i></p>
+            <p>Cities We Deliver To <i class="fa-solid fa-chevron-down icon"></i></p>
+        </div>
+    </section>
+
+    <section class="container footer_section">
+        <div class="footer_section_main">
+            <img src="imgs/logo.png" alt="logo" />
+            <div class="footer_section_main_buttons">
+                <button>
+                    <img src="https://flagcdn.com/w40/in.png" alt="Indian Flag"/>India
+                    <i class="fa-solid fa-chevron-down icon"></i>
+                </button>
+                <button><i class="fa fa-globe"></i>English<i class="fa-solid fa-chevron-down icon"></i></button>
+            </div>
+        </div>
+
+        <div class="footer_section_navigation">
+            <div class="footer_section_navigation_links">
+                <h5>ABOUT ZOMATO</h5>
+                <a href="#">Who We Are</a>
+                <a href="#">Blog</a>
+                <a href="#">Work With Us</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Report Fraud</a>
+                <a href="#">Press Kit</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer_section_navigation_links">
+                <h5>ZOMAVERSE</h5>
+                <a href="#">Zomato</a>
+                <a href="#">Blinkit</a>
+                <a href="#">Feeding India</a>
+                <a href="#">Hyperpure</a>
+                <a href="#">Zomato Live</a>
+                <a href="#">Zomaland</a>
+                <a href="#">Weather Union</a>
+            </div>
+            <div class="footer_section_navigation_links">
+                <h5>FOR RESATURANTS</h5>
+                <a href="#">Partner With Us</a>
+                <a href="#">Apps For You</a>
+            </div>
+            <div class="footer_section_navigation_links">
+                <h5>LEARN MORE</h5>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+                <a href="#">Terms</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <div class="footer_section_navigation_links">
+                <h5>SOCIAL LINKS</h5>
+                <div class="footer_section_buttons">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <img src="imgs/appleStore.png" alt="appleStore" class="footer_section_logos" />
+                <img src="imgs/playStore.png" alt="playStore" class="footer_section_logos" />
+            </div>
+        </div>
+
+        <div class="footer_section_disclaimer">
+            <p>
+                By continuing past this page, you agree to our Terms of Service,
+                Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+                properties of their respective owners. 2008-2024 © Zomato™ Ltd. All
+                rights reserved.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
