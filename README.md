@@ -1,2 +1,2 @@
 Zomato landing page has deployed succesfully.
-Font awesome icons not working as i think in both github and netlify app.
+I think everything is working fine, the css file will be updated with media queries asap.
