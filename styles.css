@@ -94,6 +94,38 @@
     font-size: 15px;
 } 
 
+/* Screen Size is from 0-600 i.e., smaller/mobile screen */
+@media only screen and (max-width:600px){
+    .hero_section_navbar_container .user_icon
+    {
+        display:flex;
+    }
+    .hero_section_navbar_links{
+        display: none;
+    }
+    .hero_section{
+        min-height: 80vh;
+    }
+    .hero_section_container{
+        flex-direction: column;
+        background-color: transparent;
+        width: 100%;
+    }
+    .hero_section_input_location,
+    .hero_section_input_search{
+        padding: 18px;
+        border-radius: 10px;
+        width: 98%;
+    }
+    .hero_section_container{
+        height: calc(80vh - 40px);
+    }
+    .hero_section_title{
+        font-size: 18px;
+        width: 95%;
+    }
+}
+
 /* OFFER SECTION */
 
 .offer_section{
@@ -332,6 +364,34 @@
     width:30%;
 }
 
+/* Media Queries For Download App */
+/* 0-1300 */
+@media only screen and (max-width:1300px)
+{
+    .gap_section .semicontainer .gap_section_right,
+    .gap_section .semicontainer .gap_section_left{
+        flex:1;
+    }
+
+    .gap_section .semicontainer{
+        width: 80%;
+    }
+}
+
+/* 0-900 */
+@media only screen and (max-width:900px)
+{
+    .gap_section{
+        padding : 2rem 0;
+    }
+
+    .gap_section .semicontainer
+    {
+        width: 95%;
+        flex-direction: column;
+    }
+}
+
 /* EXPLORE SECTION */
 
 .explore_section{
@@ -476,4 +536,25 @@
     border-top: 1px solid #e0e0e0;
     padding: 1.5rem 0 ;
     font-size: 0.8rem;
+}
+
+@media only screen and (max-width:900px)
+{
+    .footer_section_navigation{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width:500px)
+{
+    .footer_section_navigation{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .footer_section_navigation{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
