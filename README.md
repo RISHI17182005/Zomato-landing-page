@@ -1,2 +1,2 @@
-Zomato landing page has deployed succesfully.
+**Zomato landing page has deployed succesfully.
 
